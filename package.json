@@ -1,0 +1,29 @@
+{
+  "name": "test-mocha-chai",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengasis/Test-Mocha-Chai.git"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai",
+    "Test",
+    "Javascript"
+  ],
+  "author": "Manuel Venegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengasis/Test-Mocha-Chai/issues"
+  },
+  "homepage": "https://github.com/mengasis/Test-Mocha-Chai#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
