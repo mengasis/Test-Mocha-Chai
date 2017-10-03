@@ -7,8 +7,11 @@ module.exports = {
     "extends": "eslint:recommended",
     "parserOptions": {
         "sourceType": "module"
-    },
+	},
+	"parser": "babel-eslint",
+	"plugins": ["babel"],
     "rules": {
+		"strict": 0,		
         "indent": [
             "error",
             "tab"
@@ -24,6 +27,6 @@ module.exports = {
         "semi": [
             "error",
             "never"
-        ]
+		]
     }
 };
